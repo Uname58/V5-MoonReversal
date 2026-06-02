@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets (never commit API keys!)
+.env
+*.pem
+*.key
+
+# Data
+*.csv
+*.json.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+trade_journal.json
