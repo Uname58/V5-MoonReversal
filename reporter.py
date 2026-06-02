@@ -103,8 +103,8 @@ def generate_charts(output_dir='.'):
         ax.scatter(t['week']['datetime'], t['price'], color=color, marker='v', s=80,
                   zorder=5, edgecolors='white', linewidths=0.5)
     
-    ax.scatter([], [], color=COLORS['green'], marker='v', s=80, label='SELL ✅', edgecolors='white', linewidths=0.5)
-    ax.scatter([], [], color=COLORS['red'], marker='v', s=80, label='SELL ❌', edgecolors='white', linewidths=0.5)
+    ax.scatter([], [], color=COLORS['green'], marker='v', s=80, label='SELL Win', edgecolors='white', linewidths=0.5)
+    ax.scatter([], [], color=COLORS['red'], marker='v', s=80, label='SELL Loss', edgecolors='white', linewidths=0.5)
     
     ax.set_title('Moon Reversal Strategy — BTC Weekly with Trade Markers', fontsize=14, fontweight='bold', pad=15)
     ax.set_ylabel('BTC/USDT', fontsize=11)
